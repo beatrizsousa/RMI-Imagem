@@ -1,0 +1,25 @@
+SELECT * FROM imagens.gerencia;
+
+
+
+
+drop table gerencia;
+
+
+
+create table gerencia (
+
+	
+cod int auto_increment,
+	
+imagem blob,
+	
+
+primary key(cod)
+
+);
+
+
+
+
+use imagens;
